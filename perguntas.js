@@ -14,115 +14,88 @@
                 texto: "Decidir fazer algo drástico para garantir o futuro da sua família.",
                 afirmacao: [
                     "Considerou utilizar seu conhecimento em química para algo arriscado, mas lucrativo.",
-                    "Pensou que deveria tomar medidas extremas para assegurar o bem-estar financeiro da sua família."
+                    "Pensou que deveria tomar medidas extremas para assegurar o bem-estar financeiro da sua export const perguntas = [
+    {
+        enunciado: "1. Qual seria sua reação ao descobrir que tem uma doença terminal?",
+        alternativas: [
+            {
+                texto: "A) Procurar tratamento imediato e informar a família.",
+                afirmacao: [
+                    "O Prudente. Você é alguém que valoriza a segurança e a transparência. Prefere seguir o caminho convencional e enfrentar a situação com o apoio de seus entes queridos. Sua personalidade é calma e responsável."
+                ],
+                proxima: 1,
+            },
+            {
+                texto: "B) Manter em segredo e procurar alternativas para garantir o futuro da família.",
+                afirmacao: [
+                    "O Determinado. Você é alguém que toma medidas drásticas para proteger aqueles que ama, mesmo que isso signifique seguir por um caminho perigoso. Sua personalidade é ousada e disposta a correr riscos para alcançar seus objetivos."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Depois de muito refletir, você decide se unir a um ex-aluno para cozinhar metanfetamina. Como você justifica essa decisão?",
+        enunciado: "2. Como você reagiria se soubesse que um ex-aluno seu está envolvido com atividades criminosas?",
         alternativas: [
             {
-                texto: "A necessidade financeira justificou suas ações.",
+                texto: "Tentar convencê-lo a sair desse mundo.",
                 afirmacao: [
-                    "Acreditou que fazer isso era a única maneira de garantir o futuro de sua família.",
-                    "Pensou que era um sacrifício necessário, dada a gravidade da sua situação."
+                    "O Moralista. Você acredita que todos merecem uma segunda chance e tenta guiar aqueles ao seu redor para um caminho melhor. Valoriza a ética e a moral, buscando sempre ajudar os outros a encontrar um rumo positivo."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Foi movido pela sensação de controle e poder que a nova atividade lhe proporcionou.",
+                texto: "Pensar em como poderia usar a situação a seu favor.",
                 afirmacao: [
-                    "Sentiu-se vivo e no controle ao se envolver nesse novo mundo.",
-                    "Descobriu um lado seu que ansiava por poder e reconhecimento."
+                    "O Calculista. Você é prático e estratégico, sempre procurando formas de tirar proveito das situações. Sua abordagem é racional e focada em resultados, não se intimidando com os riscos associados."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Após cozinhar o primeiro lote, vocês encontram problemas com um distribuidor local. Como você resolve a situação?",
+        enunciado: "3. Quando confrontado por um cartel, o que você faz?",
         alternativas: [
             {
-                texto: "Tenta negociar pacificamente para evitar conflitos.",
+                texto: "Negociar e tentar evitar conflitos.",
                 afirmacao: [
-                    "Acreditou que uma solução pacífica seria melhor a longo prazo.",
-                    "Tentou usar a razão e o diálogo para evitar violência."
+                    "O Diplomata. Você prefere uma abordagem pacífica e busca resolver conflitos de maneira calma e racional. Acredita que a negociação é a chave para evitar a violência e prefere um caminho de menor resistência."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Decide confrontar o distribuidor de forma agressiva.",
+                texto: "Confrontá-los e mostrar que não tem medo.",
                 afirmacao: [
-                    "Sentiu que a melhor defesa era um ataque forte.",
-                    "Pensou que mostrar força desde o início imporia respeito."
+                    "O Confrontador. Você acredita em mostrar força desde o início e não teme o confronto. Está disposto a tomar medidas extremas para proteger o que é seu, independentemente das consequências."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Você percebe que o negócio está crescendo, mas também está se tornando cada vez mais perigoso. O que você faz?",
+        enunciado: "4. Qual seria seu próximo passo ao começar a ganhar dinheiro ilícito?",
         alternativas: [
             {
-                texto: "Continua expandindo o negócio, ignorando os riscos.",
+                texto: "Investir em um negócio legítimo para lavar o dinheiro.",
                 afirmacao: [
-                    "Viu a oportunidade de crescer ainda mais e não quis parar.",
-                    "Achou que os benefícios financeiros superavam os riscos."
+                    "O Estratégico. Você pensa à frente e busca maneiras de legitimar suas ações para evitar suspeitas. Prefere uma abordagem cuidadosa para garantir que seu segredo permaneça oculto."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Considera sair do negócio para proteger sua família.",
+                texto: "Expandir rapidamente o negócio, aproveitando o sucesso.",
                 afirmacao: [
-                    "Começou a ter dúvidas sobre os caminhos que escolheu.",
-                    "Pensou que o melhor para sua família seria sair antes que as coisas piorassem."
+                    "O Ambicioso. Você é impulsionado pelo desejo de crescer e dominar. Não se contenta com o sucesso inicial e sempre busca mais, mesmo que isso envolva maiores riscos."
                 ],
                 proxima: 8,
             },
         ]
     },
     {
-        enunciado: "Você começa a ganhar muito dinheiro e precisa decidir como ocultar a origem dos seus ganhos. Qual estratégia você adota?",
+        enunciado: "5. Como você lidaria com a pressão crescente das autoridades?",
         alternativas: [
             {
-                texto: "Investir em um lava-jato para lavar o dinheiro.",
+                texto: "Manter-se calmo e tomar medidas para não levantar suspeitas.",
                 afirmacao: [
-                    "Considerou que seria uma boa forma de justificar sua nova renda.",
-                    "Escolheu uma cobertura que pudesse usar também para fins legítimos."
-                ],
-                proxima: 9,
-            },
-            {
-                texto: "Criar uma empresa de fachada para disfarçar os ganhos.",
-                afirmacao: [
-                    "Pensou que uma empresa fictícia seria mais difícil de rastrear.",
-                    "Optou por algo que pudesse facilmente manipular sem levantar suspeitas."
-                ],
-                proxima: 10,
-            },
-        ]
-    },
-    {
-        enunciado: "Com o crescimento do seu império, você se depara com um dilema moral: continuar no mundo do crime ou tentar se redimir. Qual é a sua decisão?",
-        alternativas: [
-            {
-                texto: "Continuar no mundo do crime para proteger sua posição.",
-                afirmacao: [
-                    "Sentiu que estava muito fundo para sair agora.",
-                    "Acreditou que qualquer tentativa de redenção seria fútil."
-                ],
-                proxima: 11,
-            },
-            {
-                texto: "Tentar sair do crime e se redimir.",
-                afirmacao: [
-                    "Sentiu remorso por suas ações e quis buscar redenção.",
-                    "Acreditou que ainda havia uma chance de mudar sua vida e proteger sua família."
-                ],
-                proxima: 12,
-            },
-        ]
-    }
-];
+                    "O Cauteloso. Você prefere uma abordagem discreta, tentando minimizar a atenção ind
+                           
